@@ -1,7 +1,7 @@
 # Welcome to Hera: Where Digital Legacy Meets Blockchain Innovation
 
 <p align="center">
-  <img src="../../HeraLogo.png" alt="Hera Logo" width="300"/>
+  <img src="https://postimg.cc/f3c5v9xN" alt="Hera Logo" width="300"/>
 </p>
 
 ## About Hera
