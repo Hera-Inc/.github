@@ -1,7 +1,7 @@
 # Welcome to Hera: Where Digital Legacy Meets Blockchain Innovation
 
 <p align="center">
-  <img src="../HeraLogo.png" alt="Hera Logo" width="300"/>
+  <img src="../../HeraLogo.png" alt="Hera Logo" width="300"/>
 </p>
 
 ## About Hera
@@ -136,73 +136,7 @@ If you fail to check in after the time limit expires:
 - Biome (Linting & Formatting)
 - Git Version Control
 
-## Project Structure
-
-```
-HeraInc/
-├── inheritance-protocol/     # Smart contract infrastructure
-│   ├── src/
-│   │   └── DigitalWillFactory.sol
-│   ├── test/                 # Comprehensive test suite
-│   └── script/               # Deployment scripts
-│
-└── hera-ui/                  # Next.js frontend application
-    ├── src/
-    │   ├── app/              # Next.js app router
-    │   ├── components/       # Reusable UI components
-    │   ├── contexts/         # Web3Auth context
-    │   └── hooks/            # Custom hooks (useWillContract)
-    └── public/               # Static assets
-```
-
-## Getting Started
-
-### Smart Contracts
-
-```bash
-cd inheritance-protocol
-
-# Install dependencies
-forge install
-
-# Run tests
-forge test
-
-# Deploy (configure network in foundry.toml)
-forge script script/Deploy.s.sol --rpc-url <RPC_URL> --broadcast
-```
-
-### Frontend
-
-```bash
-cd hera-ui
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-Visit to access the Hera UI.
-
-## Get Involved
-
-We're building the future of digital inheritance and welcome contributors, partners, and community members:
-
-- **🤝 Contribute**: Check out our repositories and submit pull requests
-- **🔐 Security**: Found a vulnerability? Please report it responsibly
-- **💡 Feature Requests**: Have ideas? Open an issue and share your thoughts
-- **🌐 Partner**: Explore integration opportunities for wallets, exchanges, or protocols
-
-## Connect With Us
-
-**For business inquiries**: contact@hera.inc  
-**For support**: support@hera.inc  
-**For security issues**: security@hera.inc
+Visit https://hera-ui.vercel.app/ to access the Hera UI.
 
 ## License
 
